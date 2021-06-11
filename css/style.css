@@ -8,20 +8,69 @@
     width: 1200px;
     margin: 50px auto;
 }
-
-img {
-    position: relative;
+.prodotto {
+    position:relative;
     width: 320px;
 }
 
+.imga{
+    position:absolute;
+    width: 100%;
+    z-index: 1;
+}
+.imga:hover{
+    display: none;
+}
+
+.imgb {
+    position:relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
 .white {
     position: absolute;
     background-color: rgb(255, 255, 255);
     width: 50px;
     height: 50px;
     top: 70px;
-    left: 625px;
+    right:  0px;
     font-size: 30px;
     text-align: center;
     line-height: 50px;
+    z-index: 1;
+}
+.sconto {
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    bottom: 20px;
+    left: 0px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    z-index: 1;
+}
+
+.sos {
+    position: absolute;
+    background-color: rgb(4, 144, 90);
+    bottom: 20px;
+    left: 60px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    z-index: 1;
+}
+.prezzo-sconto {
+    color: red;
+
+}
+.info .prezzo-reale {
+    text-decoration-line: line-through;
 }
