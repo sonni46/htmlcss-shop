@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+img {
+    position: relative;
+    width: 320px;
+}
+
+.white {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 625px;
+}
