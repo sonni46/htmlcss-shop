@@ -21,4 +21,7 @@ img {
     height: 50px;
     top: 70px;
     left: 625px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
 }
